@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #222;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.crud {
+  width: 80%;
+  margin: auto;
+}
+.head {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  outline: none;
+  padding: 4px;
+  margin: 4px 0;
+  border-radius: 5px;
+  background-color: #111;
+  color: white;
+}
+input:focus {
+  background-color: #000;
+  transform: scale(1.08);
+}
+.cash input {
+  width: 20%;
+}
+#total {
+  background-color: #f10;
+  padding: 6px 4px;
+  border-radius: 5px;
+}
+#total::before {
+  content: "Total: ";
+}
+button {
+  width: 100%;
+  height: 30px;
+  border-radius: 8px;
+  background-color: #400358;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: 5px;
+}
+button:hover {
+  background-color: #640c87;
+  letter-spacing: 1px;
+}
+.searchInputs {
+  display: flex;
+  justify-content: space-between;
+}
+.searchInputs button {
+  width: 45%;
+}
+#search {
+  margin-top: 15px;
+}
+table {
+  width: 100%;
+  text-align: center;
+}
+#deleteAll {
+  margin-bottom: 15px;
+}
